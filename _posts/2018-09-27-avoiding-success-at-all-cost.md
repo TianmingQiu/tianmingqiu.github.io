@@ -15,9 +15,20 @@ tags:
 
 ## File system
 - /home
-- /work/scratch: 10TB Quota, for files
+- /work/scratch/tq56rola/: 10TB Quota, for files
 - /work/projects
 - /work/local
 - More [details](https://www.hhlr.tu-darmstadt.de/hhlr/arbeit_auf_dem_cluster/dateisysteme_lichtenbergrechner_2/index.en.jsp)
+
+## install python
+[tutorial](https://www.godaddy.com/garage/how-to-install-and-configure-python-on-a-hosted-server/)
+
+
+
+
+
+[install mpi4py](http://lsi.ugr.es/jmantas/pdp/ayuda/datos/instalaciones/Install_OpenMPI_en.pdf)
+
+
 
 
