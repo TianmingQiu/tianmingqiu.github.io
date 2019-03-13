@@ -24,7 +24,11 @@ tags:
 - [Wessling Robot](http://www.wessling-robotics.de/#) (Yu Qiming 50,000 €/year)
 - [Sami Haddadin](http://www.msrm.tum.de/en/rsi/team/professor/)
 
+## ETH
+- [LAS Berken](https://berkenkamp.me/)
+
 ## Some backups
+
 - 陈智豪同学去的[INRIA](https://team.inria.fr/larsen/team-members/)
 - MILA搞的learning的[中国人](https://jian-tang.com/)
 

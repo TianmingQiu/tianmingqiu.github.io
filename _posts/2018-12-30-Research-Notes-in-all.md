@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research Note"
-subtitle: 这是一个零散的笔记中心，需要时常整理''
+subtitle: "这是一个零散的笔记中心，需要时常整理"
 author: "Tianming Qiu"
 header-style: text
 tags:
@@ -23,10 +23,12 @@ tags:
 - LQR, MPC
 - [知乎：控制和机器学习结合实验室归类](https://www.zhihu.com/question/41529400)
 - Jan Peters课件
+- [MPG Sebstian Strimpe](https://www.is.mpg.de/person/strimpe)
 
 ##### 机器学习基本知识
 - Bishop PRML(按基本算法归类总结)
 - DL
+- [Machine Learning courses recommendations](https://www.jiqizhixin.com/articles/2019-03-07-9)
 
 ##### RL系列算法
 - [OpenAI SpinUp](https://spinningup.openai.com/en/latest/spinningup/keypapers.html)
@@ -52,14 +54,29 @@ tags:
 - stochastic optimal control 
 
 ### Master Thesis Guide
+
+##### Some cool and possible ideas
+- [A noisy network to aid efficient ecploration by google](https://openreview.net/pdf?id=rywHCPkAW)
+
+##### Thesis Writing
 - [机器之心](https://www.jiqizhixin.com/articles/2019-02-04?from=synced&keyword=%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E6%97%A0%E4%BB%8E%E4%B8%8B%E6%89%8B%EF%BC%9F%E4%B8%80%E6%96%87%E5%B8%AE%E4%BD%A0%E7%90%86%E6%B8%85%E5%A4%B4%E7%BB%AA)
+
 - [毕业论文新生手册](https://bookdown.org/wshuyi/intro-to-scientific-writings4/writing.html#template-for-bachelor-thesis)
-- - Active vs. passive voice: http://www.biomedicaleditor.com/active-voice.html
+
+##### Joni writing advices
+
+- Active vs. passive voice: http://www.biomedicaleditor.com/active-voice.html
+
 - Format of titles and headings: http://www.sussex.ac.uk/informatics/punctuation/essaysandletters/titlesandheadings
+
 - Placement of commas: http://english.stackexchange.com/questions/146917/comma-after-in-italy-at-the-beginning-of-the-sentence?rq=1
+
 - "an" vs. "a": http://www.everythingenglishblog.com/?p=541
+
 - Everything needs to be motivated. Either you write the motivation yourself  or use citations. Using citations is much easier.
+
 - Put citations immediately after the thing(s) you are explaining.
+
 - Citation style: for a thesis/publication there are many possible  ways to format references. It is important to format all references  in the same way. An easy way to format the references is to take a  look at some high quality journal articles, for example, from IEEE  TRO or IJRR. Take a look at how those articles format conference and   journal article references.
 
 ### 网页博客精华(杂)
@@ -68,5 +85,7 @@ tags:
 - [强化学习的坑](https://zhuanlan.zhihu.com/p/33936457)
 - [控制和机器(强化)学习](https://www.zhihu.com/question/41529400)
 - 同上一条，一篇paper：[Reinforcement Learning: The View from Continuous Control](https://arxiv.org/pdf/1806.09460.pdf)
-- 
+- [Google cloud tutorials from CS231n](http://cs231n.github.io/gce-tutorial/)
+- [关于优化的入门博客](https://yiyang186.github.io/categories/%E6%95%B0%E5%AD%A6/)
+- [Git Virtual Env and Ignore control](https://www.cnblogs.com/heacool/p/6490640.html)
 
