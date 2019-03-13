@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research Note"
-subtitle: "这是一个零散的笔记中心，需要时常整理"
+subtitle: '这是一个零散的笔记中心，需要时常整理'
 author: "Tianming Qiu"
 header-style: text
 tags:
