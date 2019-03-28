@@ -37,7 +37,15 @@ tags:
 
   - Li Miao: a short [intro1](http://www.zhiding.cn/techwalker/documents/J9UpWRDfVYHE5TNfGX_awwNyEoKsL8yMHC_bb3RCEuig) [intro2](https://www.leiphone.com/news/201701/X5M62i6lzCcuQnV1.html)
 
+## yige
+Scott Niekum: rudi的头 Oliver kroemer： jan 的学生, 重点申 emo todorov: Washington, mujoco实验室 katharina mueling，system scientist ashutish Sarena：computer vision Alberto Rodriguez: MIT MCube Lab Ludovic Reghetti 
+
+
 ## 机器人硬件产品
 - Agility Robotics [Cassie](http://www.agilityrobotics.com/robots#cassie), [Digit](http://www.agilityrobotics.com/meet-digit)
 - 
-- 
+
+## 博士申请问题
+- master thesis
+- proposal
+- how to train end-to-end on model-based scenario
