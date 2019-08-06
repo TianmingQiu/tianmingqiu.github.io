@@ -41,5 +41,4 @@ tags:
 
 - Both 13 DQN and 16 Double Q Learning stack last four frames to represent a state:
 > *13 DQN*: For the experiments in this paper, the function $\phi$ from algorithm 1 applies this preprocessing to the last 4 frames of a history and stacks them to produce the input to the Q-function.
-
 > *16 Double Q Learning*: The network takes the last four frames as input and outputs the action value of each action.
