@@ -31,3 +31,15 @@ tags:
 
 
 
+## Skip frames vs. frames stack
+- In the DQN(2013), it illustrates a frame-skipping technique: 
+> Following previous approaches to playing Atari games, we also use a simple frame-skipping technique[$^3$](https://www.jair.org/index.php/jair/article/view/10819). More precisely, the agent sees and selects actions on every $k^{th}$ frame instead of every frame, and its last action is repeated on skipped frames. Since running the emulator forward for one step requires much less computation than having the agent select an action, this technique allows the agent to play roughly $k$ times more games without significantly increasing the runtime. We use $k = 4$ for all games except Space Invaders where we noticed that using $k = 4$ makes the lasers invisible because of the period at which they blink. We used $k = 3$ to make the lasers visible and this change was the only difference in hyperparameter values between any of the games.
+
+- While DeepMind DQN series use [ALE](https://www.jair.org/index.php/jair/article/view/10819) and we usually use [OpenAI Gym platform](https://gym.openai.com/envs/Breakout-v0/), there is a difference between these two that OpenAI Gym skips the frames randomly by uniformly samples $k$ from $\{2,3,4\}$ instead of fixes $k=4$. Hence, we use a modified OpenAI Gym called [deterministic version](https://github.com/openai/gym/blob/5cb12296274020db9bb6378ce54276b31e7002da/gym/envs/__init__.py#L352), which explains in this [blog](https://becominghuman.ai/lets-build-an-atari-ai-part-1-dqn-df57e8ff3b26?gi=a6144d070ba4).
+- Actually Atari games were treated as POMDP:
+> Since the agent only observes images of the current screen, the task is partially observed and many emulator states are perceptually aliased, i.e. it is impossible to fully understand the current situation from only the current screen $ x_t $. We therefore consider sequences of actions and observations, $s_t = x_1, a_1, x_2, ..., a_{t−1}, x_t $, and learn game strategies that depend upon these sequences.
+
+- Both 13 DQN and 16 Double Q Learning stack last four frames to represent a state:
+> *13 DQN*: For the experiments in this paper, the function $\phi$ from algorithm 1 applies this preprocessing to the last 4 frames of a history and stacks them to produce the input to the Q-function.
+
+> *16 Double Q Learning*: The network takes the last four frames as input and outputs the action value of each action.
